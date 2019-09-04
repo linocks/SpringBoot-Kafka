@@ -1,0 +1,10 @@
+kafka:
+  consumer:
+    group-id: test-group
+  servers: localhost:9092
+  topic:
+    name: test-topic
+
+
+server:
+  port: 8081
